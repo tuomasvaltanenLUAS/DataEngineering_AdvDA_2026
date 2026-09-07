@@ -1,0 +1,5 @@
+This folder will contain needed examples in order to do exercise project 1 for 
+both REGRESSION and CLASSIFICATION datasets.
+
+Different examples have been divided by task-specific folders to help you find
+the exact needed examples quicker.
