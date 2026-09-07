@@ -3,3 +3,6 @@ both REGRESSION and CLASSIFICATION datasets.
 
 Different examples have been divided by task-specific folders to help you find
 the exact needed examples quicker.
+
+Use the exercise project 1 template found in this same folder for both REGRESSION
+and CLASSIFICATION datasets (two reports in total).
