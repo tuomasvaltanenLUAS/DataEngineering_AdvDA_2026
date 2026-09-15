@@ -7,12 +7,14 @@ Multicollinearity and redundancy:
 Common tools:
 
 - VIF test
+
 - Correlation matrix / phik-matrix 
     (see also y-data -example in task1a_1d -> task4d_alternatives_extra -folder!)
 
 - For correlation/phik-matrix, consider also these tools:
     - SweetViz "associations" tool 
     - Dython -approach (see example)
+    - Note! Both SweetViz and Dython are different than just plain correlation/phik-matrix
 
 - RFE (recursive feature elimination) (to some extent)
 
