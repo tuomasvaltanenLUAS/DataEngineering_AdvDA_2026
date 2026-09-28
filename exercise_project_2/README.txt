@@ -26,6 +26,8 @@ Overlap management:
     - ClusterCentroids
     - Clustering (KMeans etc.)
 
+Other tools:
+    - Smart imputation features (scikit-learn)
 
 Needed installations:
 ---------------------
