@@ -24,13 +24,14 @@ Data synthetization / oversampling:
 Overlap management:
     - TomekLinks
     - ClusterCentroids
-    - Clustering (KMeans etc.)
+    - Clustering (KMeans etc.) (optional, but powerful)
+    - Autoencoders (optional)
 
 Other tools:
     - Smart imputation features (scikit-learn)
 
-Needed installations:
----------------------
+Needed installations (some of these take time):
+-----------------------------------------------
 
 pip install imblearn
 pip install ctgan 
