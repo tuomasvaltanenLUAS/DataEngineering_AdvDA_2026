@@ -10,6 +10,7 @@ This includes:
 Undersampling:
     - Random under sampling
     - ClusterCentroids
+    - ENN (Edited Nearest Neighbors) (extra)
 
 Data synthetization / oversampling:
      - SMOTE
@@ -19,7 +20,7 @@ Data synthetization / oversampling:
         - CopulaSynthesizer
         - TVAE (Tabular Variable Autoencoder)
 
-    - Special case: TabFairGAN (for sensitive/human-oriented data)
+    - Special case: TabFairGAN (optional: for sensitive/human-oriented data)
 
 Overlap management:
     - TomekLinks
