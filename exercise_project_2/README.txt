@@ -20,6 +20,8 @@ Data synthetization / oversampling:
         - CopulaSynthesizer
         - TVAE (Tabular Variable Autoencoder)
 
+    
+
     - Special case: TabFairGAN (optional: for sensitive/human-oriented data)
 
 Overlap management:
