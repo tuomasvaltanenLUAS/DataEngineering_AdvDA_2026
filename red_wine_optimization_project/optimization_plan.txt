@@ -1,0 +1,48 @@
+RED WINE DATASET (CLASSIFICATION)
+---------------------------------
+
+IDEAS FOR OPTIMIZATIONS IN A FUTURE LECTURE
+
+SMOTE for generating a balanced dataset (add more data)
+    - optionally we can consider TVAE or Copula 
+        (maybe even CTGAN, but that is slow to use)
+
+Outlier removal as needed, probably at least IsolationForest or Elliptic Envelope
+
+TomeKLinks to clean overlapping throughout the dataset
+    - Instead of TomeKlinks, we could consider Autoencoders (but they are more difficult to use)
+    - ClusterCentroids technically too, but we don't really have that much data
+
+Clustering: KMeans or Gaussian Mixture to help the model DIFFERENTIATE
+between quality classes, ESPECIALLY the qualities 5 and 6
+=> the confusing middle-range wines
+
+=> try assigning each wine an automated UNSUPERVISED ML cluster
+=> use this information to determine the difference between qualities 5 and 6
+=> other clustering methods also possible (see scikit-learn's clustering page)
+(https://scikit-learn.org/stable/modules/clustering.html)
+
+Use dimensionality reduction to reduce amount of variables (PCA...?)
+
+################################
+
+The baseline for the red wine dataset is usually something like 58-60% accuracy
+
+Our aim is to get this over 80%, over 85% accuracy if possible.
+
+Algorithms to keep in mind, XGBoost, RandomForest, KNN (any others?)
+
+Also use automated tools (grid/random search etc.) to find best parameters for the algorithms. 
+
+WILD CARD IDEA:
+
+What if we make both a classification model and a regression model
+Quality is an ordinal category => both regression and classification work.
+
+Basic idea => if classification confidence is low => use regression estimation instead.
+
+THE BIG IDEA:
+
+To ensure the model works with real data also.
+
+TESTING DATASET SHOULD BE 100% real wines only.

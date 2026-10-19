@@ -1,9 +1,8 @@
-In this folder, we'll later have examples that help 
+In this folder, we have examples that help 
 us with distribution and overlap management.
 
-The actual exercise project 2 will be added to Moodle before NEXT lecture.
-
-The tasks will include undersampling, oversampling/data synthetization and overlap management tools.
+The tasks will include undersampling, oversampling/data synthetization 
+and overlap management tools.
 
 This includes:
 
@@ -13,21 +12,29 @@ Undersampling:
     - ENN (Edited Nearest Neighbors) (extra)
 
 Data synthetization / oversampling:
-     - SMOTE
+     - SMOTE (usually used with classification)
 
-     - SDV
+     - SDV (also support conditions)
         - CTGAN
         - CopulaSynthesizer
         - TVAE (Tabular Variable Autoencoder)
 
     
+    - Other optional/extra approaches:
+        - GMM (Gaussian Mixture Models)
+        - Duplicate + noise generation
+        - ADASYN
+
 
     - Special case: TabFairGAN (optional: for sensitive/human-oriented data)
 
 Overlap management:
     - TomekLinks
+        - Even SmoteTomek exists (combination of SMOTE + TomekLinks)
+
     - ClusterCentroids
     - Clustering (KMeans etc.) (optional, but powerful)
+        - Example on this will be shown later with the red wine dataset optimization
     - Autoencoders (optional)
 
 Other tools:
