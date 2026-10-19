@@ -19,12 +19,10 @@ Data synthetization / oversampling:
         - CopulaSynthesizer
         - TVAE (Tabular Variable Autoencoder)
 
-    
     - Other optional/extra approaches:
         - GMM (Gaussian Mixture Models)
         - Duplicate + noise generation
         - ADASYN
-
 
     - Special case: TabFairGAN (optional: for sensitive/human-oriented data)
 
