@@ -1,0 +1,11 @@
+Interaction features is the situation when we create new columns/variables into our
+dataset (DataFrame) by using the existing columns in a some sort of calculation.
+
+Naturally, we can't use the target variable in any calculation, since that would introduce
+tarket leakage to our model (thus making the model virtually useless).
+
+Interaction features can be done both manually and automatically (DFS). 
+
+DFS (Deep Feature Synthesis) is a brute force method to create a vast number of new columns
+into the dataset. Therefore, we usually need to filter out the most important columns after
+producing the new columns. RFE is quite useful in this scenario.

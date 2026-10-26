@@ -1,0 +1,9 @@
+Dimensionality reduction refers to the method of reducing the amount of original variables
+by creating components of existing variables.
+
+The most famous algorithm for dimensionality reduction is PCA (Principal Component Analysis),
+which converts the original variables into principal components. One principal component is a 
+weighted combination of the original variables.
+
+In a nutshell, with PCA, we can reduce our original amount of variables (e.g. 50 variables) 
+into 15 principal components, for example. 

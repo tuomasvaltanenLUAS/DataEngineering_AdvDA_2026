@@ -1,0 +1,6 @@
+When a categorical feature (column) has a substantial amount of unique options (10 or more),
+it's considered high cardinality. 
+
+High cardinality is often a tough task to beat, but there are some methods that can be attempted. 
+
+Easiest tools involve target encoding, but more complex clustering approaches can also be considered.
