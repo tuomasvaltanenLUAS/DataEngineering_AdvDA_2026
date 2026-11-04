@@ -1,0 +1,15 @@
+NOISE AND OUTLIERS
+
+This folder will contain examples on how to use some of the most 
+common noise and outlier detection/removal tools. 
+
+For noise:
+- MAD (Mean Absolute Deviation)
+- RANSAC (Random Sample Consensus) (also removes some outliers)
+
+For outliers:
+- The basics: IQR, z-score
+- Isolation Forest
+- Elliptic Envelope
+- LOF (Local Outlier Factor)
+- Clustering approaches: DBSCAN
