@@ -1,0 +1,3 @@
+Autoencoders can also be used for dimensionality reduction!
+
+See the code examples in exercise_project_2 => other_generic_examples
