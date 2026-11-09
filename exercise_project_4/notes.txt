@@ -12,4 +12,5 @@ For outliers:
 - Isolation Forest
 - Elliptic Envelope
 - LOF (Local Outlier Factor)
-- Clustering approaches: DBSCAN
+- Clustering approaches: DBSCAN etc. other algorithms, see scikit-learn's documentation:
+https://scikit-learn.org/stable/modules/clustering.html
