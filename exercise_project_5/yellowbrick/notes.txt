@@ -1,0 +1,43 @@
+Yellowbrick, potential visualizations you can try during the course
+
+NOTE! It seems Python 3.12 doesn't work that well with Yellowbrick due to 
+differences in scikit-learn API differences.
+
+There's a folder that attempts to fix the problems with Python 3.12, but
+it's not as stable as using Yellowbrick with Python 3.9 or 3.10.
+
+See documentation:
+https://www.scikit-yb.org/en/latest/api/index.html
+
+These are notes from the instructor
+-----------------------------------
+
+Regression data:
+
+- ResidualsPlot (error patterns and non-linearity)
+- SilhouetteVisualizer (if using clustering, like KMeans to improve performance, we can use this to optimize our clusters)
+- PCA (+ other) projections -> we'll test this later during feature engineering materials!
+
+Classification data:
+- ClassBalance
+- DiscriminationThreshold (how probabilities work between predictions)
+- SilhouetteVisualizer (if using clustering, like KMeans to improve performance, we can use this to optimize our clusters)
+- PCA (+ other) projections -> we'll test this later during feature engineering materials!)
+
+Clustering:
+- SilhouetteVisualizer (we'll test this during clustering algorithms, like KMeans)
+
+ML Model evaluation (we'll use these later to study whether you need to optimize your model or the data itself)
+- LearningCurve 
+- ValidationCurve
+
+
+Other interesting visualizations:
+
+https://www.scikit-yb.org/en/latest/api/features/radviz.html
+https://www.scikit-yb.org/en/latest/api/features/rankd.html
+https://www.scikit-yb.org/en/latest/api/features/pcoords.html
+https://www.scikit-yb.org/en/latest/api/target/binning.html
+https://www.scikit-yb.org/en/latest/api/cluster/icdm.html
+https://www.scikit-yb.org/en/latest/api/features/pca.html
+https://www.scikit-yb.org/en/latest/api/features/manifold.html
